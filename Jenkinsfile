@@ -1,5 +1,5 @@
 pipeline {
-    agent {label Java_11_Slave}
+    agent {label "Java_11_Slave"}
     stages {
         stage('Stage 1') {
             steps {
